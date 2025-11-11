@@ -18,7 +18,7 @@ jobs:
             git zip unzip openjdk-17-jdk pkg-config libffi-dev libssl-dev \
             liblzma-dev libbz2-dev libreadline-dev zlib1g-dev libjpeg-dev \
             libfreetype6-dev libgstreamer1.0-dev gstreamer1.0-plugins-base \
-            libgles2-mesa-dev libgl1-mesa-dev
+            libgles2-mesa-dev libgl1-mesa-dev libunwind-dev
 
       - name: Install buildozer
         run: |
